@@ -28,7 +28,7 @@ SOFTWARE.
 #include <time.h>
 
 void usage(char *argv0) {
-    fprintf(STDERR, "Usage: %s <PIN> [0-255] [0-255] [0-255]\n", argv0);
+    fprintf(stderr, "Usage: %s <PIN> [0-255] [0-255] [0-255]\n", argv0);
     exit(1);
 }
 
